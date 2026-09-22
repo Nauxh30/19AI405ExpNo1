@@ -41,6 +41,32 @@
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
 
+
+### Algorithm
+
+1. **Start the program.**
+
+2. **Create the AI agent** and initialize its location as `A`.
+
+3. **Initialize the dirt status** of both rooms, `A` and `B`.
+
+4. **Check the current room** for dirt.
+
+5. If dirt is present, **clean the room using the suck action**.
+
+6. If the room is clean, **move the agent to the next room**.
+
+7. **Check the next room** for dirt.
+
+8. If dirt is found, **clean the room**; otherwise, do nothing.
+
+9. The agent can **move left or right** between the two rooms.
+
+10. **Display the current location and dirt status** of the agent.
+
+11. **Repeat the process** until both rooms are checked and cleaned.
+
+12. **Stop the program.**
 ## PROGRAM
 
 ```
